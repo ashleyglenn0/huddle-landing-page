@@ -23,6 +23,8 @@ body {
     margin-bottom: 40px;
     border-radius: 10px;
     box-shadow: 2px 3px 10px 0 gray;
+    display: flex;
+    flex-direction: column;
 }
 
 .hero {
@@ -207,5 +209,17 @@ width: 150px;
 .location {
     line-height: 2;
     
+}
+
+@media (min-width:600px) {
+    .container, .footer, .hero {
+        max-width: 900px;
+    }
+    .card {
+        flex-direction: row;
+    }
+    .card div, .card p {
+        width: 50%;
+    }
 }
 
