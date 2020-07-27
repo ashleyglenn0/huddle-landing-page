@@ -1,0 +1,211 @@
+body {
+    font-family: heebo;
+    background: lightgray;
+
+}
+
+.container {
+    font-family: heebo;
+    max-width: 375px;
+    margin: 0px auto; 
+    padding: 60px 20px 20px;
+    background: white;
+    
+}
+.build {
+    text-align: center;
+    
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 10px 0 gray;
+}
+
+.hero {
+    margin: 0px auto;
+    padding:20px;
+    background-image: url("../images/bg-hero-mobile.svg");
+    background-color: lightblue;
+    background-size: cover;
+    max-width: 375px;
+}
+
+.community {
+    padding: 5px;
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+.logo{
+    float:left;
+    height: 15px;
+    
+}
+
+.try-it {
+    background-color: white;
+    color: #13343D;
+    border-radius: 50px;
+    float: right;
+    border: none;
+
+}
+
+.get-started {
+    background-color: hotpink;
+    color: white;
+    border-radius: 30px;
+    height: 50px;
+    width: 250px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+    
+    
+}
+
+.grow {
+    text-align: center;
+ 
+ 
+}
+
+
+
+.conversations {
+    text-align: center;
+    
+    
+
+}
+
+
+
+.users {
+    text-align: center;
+    
+    
+    
+
+}
+
+
+
+.ready{
+    position: relative;
+    background-color: white;
+    margin-bottom: -100px;
+    margin-top: 100px;
+    
+}
+
+
+
+.last-button {
+    color: white;
+    background-color: hotpink;
+    border-radius: 30px;
+    height: 40px;
+    width: 225px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    box-shadow: 2px 2px 10px gray;
+}
+
+.ready-to-build {
+    font-size: large;
+    text-align: center;
+}
+
+.reach-us{
+    font-family: heebo;
+    color: white;
+    font-size: small;
+
+
+}
+
+
+.more-info {
+    list-style-type: none;
+    line-height: 2;
+    margin-left: -15px;
+
+    
+
+}
+
+.illustration {
+height: 150px;
+width: 150px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+padding: 50px;
+
+}
+
+.growing {
+height: 150px;
+width: 150px;
+}
+
+.flow {
+    height: 150px;
+    width: 150px;
+
+}
+
+.use {
+    height: 150px;
+    width: 150px;
+    padding-top: 10px;
+
+}
+
+.footer {
+    margin: 0px auto;
+    padding:100px 20px 20px;
+    background-color: #00252E;
+    max-width: 375px;
+
+}
+
+.footer-logo {
+    color: white;
+}
+
+.envelope {
+    height: 10px;
+    width: 10px;
+    padding-right: 10px;
+}
+
+.phone {
+    height: 10px;
+    width: 10px;
+    padding-right: 10px;
+}
+
+.compass {
+    height: 10px;
+    width: 10px;
+    padding-right: 10px;
+}
+
+.location {
+    line-height: 2;
+    
+}
+
