@@ -181,6 +181,7 @@ width: 150px;
     padding:100px 20px 20px;
     background-color: #00252E;
     max-width: 375px;
+    display: flex;
 
 }
 
@@ -218,11 +219,14 @@ width: 150px;
     .card {
         flex-direction: row;
     }
-    .card div, .card p {
+    .card div, .card img {
         width: 50%;
     }
     .footer {
         flex-direction: row;
+    }
+    .footer div, .footer nav{
+        flex: 1 1 0px;
     }
 
     .grow-paragraph {
@@ -230,38 +234,64 @@ width: 150px;
     }
     .conversations-paragraph {
         text-align: left;
-        padding-right: 200px;
+
 
     }
     .users-paragraph {
         text-align: right;       
     }
     
-   
     }
     .conversations {
         flex-direction: row-reverse;
     }
 
-    .last-button{
+
+    .community {
         display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: auto;
-        box-shadow: 2px 2px 10px gray;
+        flex-direction: row;
     }
 
-    .ready-to-build {
-        font-size: large;
-        text-align: center;
+    .begin div, .illustration img {
+        width: 50%;
+    }
+
+    .card-image {
+        min-width: 300px;
+        min-height: 300px;
+        padding: 50px;
+    }
+
+    .card-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 50px;
+    }
+
+    .ready {
+        flex-direction: column;
+        max-width: 400px;
+        margin: 100px auto -100px;
+    }
+
+    .end {
+        padding-top: 40px;
+        color: white;
+    }
+
+    .begin {
+        display: flex;
+        flex-direction: column;
+        
     }
 
     .illustration {
+        width: 450px;
+        height: 400px;
+        padding-right: 100px;
         margin-right: 10px;
-    }
-
-    .community {
-        text-align: left;
+        
     }
 
 
