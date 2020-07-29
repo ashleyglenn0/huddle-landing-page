@@ -1,4 +1,7 @@
+live demo: [here on github pages](https://ashleyglenn0.github.io/huddle-landing-page/)
+
 # Frontend Mentor - Huddle landing page with alternating feature blocks
+
 
 ![Design preview for the Huddle landing page with alternating feature blocks coding challenge](./design/desktop-preview.jpg)
 
